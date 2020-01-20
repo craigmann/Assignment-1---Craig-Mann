@@ -31,7 +31,7 @@ import seaborn as sns
 import pickle
 
 # Load the Auto MPG Dataset
-dataset = pd.read_csv(os.path.join(APP_ROOT, "Assignment-1---Craig-Mann\\auto-mpg.csv"), header=0, na_values="?", comment="\t")
+dataset = pd.read_csv(os.path.join(APP_ROOT, "auto-mpg.csv"), header=0, na_values="?", comment="\t")
 
 # Headers of Data
 # "mpg","cylinders","displacement","horsepower","weight","acceleration","model year","origin","car name"
