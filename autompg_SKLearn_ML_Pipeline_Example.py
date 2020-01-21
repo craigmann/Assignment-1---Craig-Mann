@@ -17,7 +17,7 @@ from sklearn import tree
 import pandas as pd
 
 # Load and split the data
-autompg = pd.read_csv(os.path.join(APP_ROOT, "Assignment-1---Craig-Mann\\auto-mpg.csv"), 
+autompg = pd.read_csv(os.path.join(APP_ROOT, "auto-mpg.csv"), 
 					header=0, na_values="?", comment="\t")
 
 X = autompg.drop('mpg', axis=1)
